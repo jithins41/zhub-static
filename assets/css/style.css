@@ -23,15 +23,45 @@
     font-family: 'Roboto', sans-serif;
 
   }
+  header{
+    transition: 0.3s ease-in;
+  }
+  .left-text{
+    text-align: left;
+  }
+  .center-text{
+    text-align: center;
+  }
+  .right-text{
+    text-align: right;
+  }
   @media screen and (max-width:640px) {
     .title-image {
       max-width: 100%;
       height:2.1em;
-      transform: scale(1.9);
+      transform: scale(1.8);
       margin: 8px;
       margin-left: 2em;
       padding: 5px;
     }
-  
+    .left-text{
+      text-align: left;
+    }
+    .center-text{
+      text-align: left;
+    }
+    .right-text{
+      text-align: left;
+    }
+    .linkfont:hover
+{
+ 
+    font-weight: 500;
+    font-family: 'roboto';
+    font-size:14px;
+    color:#41B46C;
+    transform: translatey(0px);
+    transition: 0.3s ease-out;
+}
   }
  
